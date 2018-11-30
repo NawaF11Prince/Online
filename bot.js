@@ -4,7 +4,7 @@ const prefix = '.'
 
 client.on('ready', () => {
   console.log(`Logged in as ${client.user.tag}!`);
-client.user.setGame(`صيآنة`,"http://twitch.tv/S-F")
+client.user.setGame(`صيآنة`,)
   console.log('')
   console.log('')
   console.log('╔[═════════════════════════════════════════════════════════════════]╗')
@@ -35,7 +35,7 @@ client.user.setGame(`صيآنة`,"http://twitch.tv/S-F")
 
 client.on('ready', function(){    
     var ms = 40000 ;    
-    var setGame = [` NawaF : `," #24 Hours"];    
+    var setGame = [` N4waF : `," #24 Hours"];    
     var i = -1;    
     var j = 0;    
     setInterval(function (){    
@@ -46,7 +46,7 @@ j = 1;
             j = -1;    
       }    
        i = i+j;    
-        client.user.setGame(setGame[i],`http://twitch.tv/S-F`);    
+        client.user.setGame 
 }, ms);    
     
 });
