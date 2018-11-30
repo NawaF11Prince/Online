@@ -4,7 +4,7 @@ const prefix = '.'
 
 client.on('ready', () => {
   console.log(`Logged in as ${client.user.tag}!`);
-client.user.setGame(`صيآنة`,)
+client.user.setGame(`N4waF`,)
   console.log('')
   console.log('')
   console.log('╔[═════════════════════════════════════════════════════════════════]╗')
@@ -27,36 +27,6 @@ client.user.setGame(`صيآنة`,)
   console.log('')
   console.log('')
 });
-
-
-
-
-
-
-client.on('ready', function(){    
-    var ms = 40000 ;    
-    var setGame = [` N4waF : `," #24 Hours"];    
-    var i = -1;    
-    var j = 0;    
-    setInterval(function (){    
-        if( i == -1 ){    
-j = 1;    
-       }    
-        if( i == (setGame.length)-1 ){    
-            j = -1;    
-      }    
-       i = i+j;    
-        client.user.setGame 
-}, ms);    
-    
-});
-
-
-
-
-
-
-
 
 
 client.login(process.env.BOT_TOKEN);
