@@ -29,4 +29,17 @@ client.user.setGame(`N4waF`,)
 });
 
 
+
+client.on('ready', () => {
+    client.user.setGame(`انا لا اهان وقلبي لا يتحطم `,'https://www.twitch.tv/Mdax77xR1')
+
+});
+
+
+
+
+
+
+
+
 client.login(process.env.BOT_TOKEN);
